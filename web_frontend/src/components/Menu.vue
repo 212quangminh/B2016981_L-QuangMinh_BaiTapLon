@@ -2,7 +2,8 @@
       <div class="container">
          <div class="row">
             <div id="content" class="col-sm-12 page">
-               <div class="header-content d-flex flex-row-reverse">
+               <div class="header-content ">
+                  <!-- d-flex flex-row-reverse -->
                   <form class="form-inline my-2 my-lg-0 p-2">
                      <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search"
                         v-model="searchText">
@@ -126,21 +127,33 @@ export default {
    padding-top: 0px;
    /* padding: 0px; */
 }
-
+.btn-outline-success{
+   background-color: #fff;
+}
 #content {
-   min-height: 400x;
+   min-height: 400px;
 }
 
 .product-category {
    padding-top: 25px;
+   padding-bottom: 29px;
+   display:flex;
+   /* justify-content: space-around; */
+   border:1px solid #fff;
+   background-color: #fff;
 }
-
+ .fa-search{
+   color:black;
+}
 .header-content {
-   display: flex;
+   /* display: flex; */
    padding: 10px 0px 10px 0px;
-   border-bottom: 3px solid #E38B29;
+   /* border-bottom: 3px solid #E38B29; */
    font-weight: normal;
    font-size: 22px;
+}
+input{
+   flex:1;
 }
 .page{
    padding: 0px;
@@ -151,21 +164,25 @@ export default {
    margin-top: 15px;
    font-size: 20px;
    font-weight: bold;
-   color: #E38B29;
+   color:#E38B29;
 }
 
 .product-grid {
    height: 300px;
-   position: relative;
+   
+   /* position: relative; */
    text-align: center;
    vertical-align: top;
    padding: 7px;
-   margin-bottom: 30px;
-   border: 3px solid transparent;
+   margin:20px 0px 0px 0px;
+   /* border: 1px solid black;*/
+   background-color:transparent;
 }
-
+.caption{
+   color:#E38B29;
+}
 .product-grid .thumb img {
-   object-fit: cover;
+   /* object-fit: cover; */
    height: 150px;
 }
 
@@ -174,7 +191,7 @@ export default {
    line-height: 22px;
    text-decoration: none;
    padding: 5px;
-   color: #E38B29;
+   color:#E38B29;
    margin: 0 auto;
    width: 100%;
    overflow: hidden;
@@ -203,11 +220,11 @@ export default {
 
 .btn-cart {
    background-color: #E38B29;
-   color: #fff;
-   border: 0;
+   color:  #fff;
+   border: 1px;
    border-radius: 3px;
 }
 
 .btn-cart:hover {
-   background-color: #be731c;
+   background-color: #fff;
 }</style>

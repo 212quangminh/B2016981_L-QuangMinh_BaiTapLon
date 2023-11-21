@@ -10,9 +10,11 @@
                   <div class="input-group form-group">
                      <div class="input-group-prepend">
                         <span class="input-group-text">
-                           <i class="fa-solid fa-envelope"></i>
+                           <!-- <i class="fa-solid fa-envelope"></i> -->
+                            Nhập tài khoản
                         </span>
                      </div>
+                     <br>
                      <input
                         type="email"
                         class="form-control"
@@ -27,10 +29,11 @@
                   </div>
                   <div class="input-group form-group">
                      <div class="input-group-prepend">
-                        <span class="input-group-text"
-                           ><i class="fas fa-key"></i
-                        ></span>
+                        <span class="input-group-text">
+                           <!-- <i class="fas fa-key"></i> -->
+                            Nhập mật khẩu </span> 
                      </div>
+                     <br>
                      <input
                         type="password"
                         class="form-control"
@@ -124,13 +127,21 @@ export default {
    padding-top: 80px;
    padding-bottom: 180px;
    margin-top: 10px;
-   
+   background-color: #E38B29;
 }
 .card {
-   height: 400px;
+   height: 500px;
    width: 400px;
    /* border-radius: 10px; */
    /* border: 1px solid #E38B29; */
+}
+.form-control{
+	font-size: 16px;
+	color: orange;
+	border: none; 
+	border-bottom: 1px solid black;	
+	outline: none;
+	background:transparent ;
 }
 .social_icon span {
    font-size: 60px;
@@ -144,6 +155,9 @@ export default {
 .card-header h3 {
    color: #E38B29;
 }
+.invalid-feedback{
+   text-align: end;
+}
 .card-header{
    background-color: white;
    border-radius: 10px;
@@ -154,22 +168,21 @@ export default {
    top: -45px;
 }
 .input-group-prepend span { 
-   width: 50px;
+   /* width: 50px; */
    background-color: white;
    color: #E38B29;
    border: 0 !important;
 }
 input:focus {
-   outline: 0 0 0 0 !important;
-   box-shadow: 0 0 0 0 !important;
+   /* outline: 0 0 0 0 !important;
+   box-shadow: 0 0 0 0 !important; */
 }
 .login_btn {
    color: #E38B29;
-   border-radius: 20px;
+   border-radius: 3px;
    border: 1px solid #E38B29;
-   width: 50%;
-   margin-left: 25%;
-   /* margin-right: 25%; */
+   width: 100%;
+   margin-top: 80px; 
 }
 .login_btn:hover {
    color: white;

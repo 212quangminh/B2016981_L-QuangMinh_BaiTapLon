@@ -69,8 +69,8 @@ const routes = [
     component: () => import("../components/Cart.vue"),
   },
   {
-    path: "/menu",
-    name: "menu",
+    path: "/",
+    name: "home",
     component: () => import("../views/Menu.vue"),
   },
   {

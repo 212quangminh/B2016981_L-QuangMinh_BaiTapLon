@@ -8,39 +8,27 @@
 
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
+               <!-- <li class="nav-item active">
                   <router-link to="/" class="nav-link">Home
-                     <i class="fa-solid fa-house"></i>
+                    
+                  </router-link>
+               </li> -->
+               <li class="nav-item">
+                  <router-link to="Menu" class="nav-link"><i class="fa-solid fa-basketball"></i> Shop NBA
+                    
                   </router-link>
                </li>
-               <li class="nav-item dropdown">
-                  <router-link to="/menu" class="nav-link">Menu
-                     
-                  </router-link>
-                  <!-- <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                     aria-haspopup="true" aria-expanded="false">
-                     Chuyên mục
-                  </a> -->
-                  <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <div class="column col-lg-2">
-                        <ul>
-                           <li>
-                              <a class="dropdown-item" href="">Bánh Ngọt</a>
-                           </li>
-                           <li>
-                              <a class="dropdown-item" href="#">Bánh Sinh nhật</a>
-                           </li>
-                        </ul>
-                     </div> 
-                  </div>-->
-               </li>
+           
                <li class="nav-item">
                   <router-link to="/contact" class="nav-link">
                      Liên hệ
                   </router-link>
                </li>
             </ul>
+           
+               
             <ul class="navbar-nav ">
+               
                <li class="nav-item ">
                   <router-link to="/cart" class="nav-link">
                      Giỏ hàng
@@ -103,8 +91,9 @@ export default {
 .navbar {
    border-top: 1px solid #E38B29;
    border-bottom: 1px solid #E38B29;
-   border-right: 0;
-   border-left: 0;
+   border-right: 1px solid #E38B29;
+   border-left: 1px solid #E38B29;
+   background-color: #fff;
 }
 
 .navbar .nav-item {

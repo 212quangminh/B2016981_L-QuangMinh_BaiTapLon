@@ -12,26 +12,16 @@
                      </li>
                      <li class="phone">
                         <i class="fa-solid fa-phone icon-phone"></i>
-                        <a style="color: #fff;text-decoration: none;" href="tel:+84 56668888">+84 56668888</a>
+                        <a style="color: orange;text-decoration: none;" href="tel:+84 56668888">+847963921246</a>
                      </li>
                      <li class="email">
                         <i class="fa-solid fa-envelope icon-email"></i>
-                        <a style="color: #fff;text-decoration: none;" href="mailto:kiettruong@gmail.com">kiettruong@gmail.com</a>
+                        <a style=" color: orange;ext-decoration: none;" href="mailto:kiettruong@gmail.com">quangminh2021202@gmail.com</a>
 
                      </li>
                   </ul>
                </div>
-               <div class="column">
-                  <h5>Dịch vụ khách hàng</h5>
-                  <ul>
-                     <li>
-                        <router-link to="/contact">Liên hệ với tôi</router-link>
-                     </li>
-                     <li>
-                        <router-link to="/contact">Về tôi</router-link>
-                     </li>
-                  </ul>
-               </div>
+              
                <div class="column">
                   <h5>Mạng xã hội</h5>
                   <ul>
@@ -49,17 +39,7 @@
                      </li>
                   </ul>
                </div>
-               <div class="column">
-                  <h5>Thanh toán</h5>
-                  <ul>
-                     <li>
-                        <a href="">Trực tiếp</a>
-                     </li>
-                     <li>
-                        <a href="">Chuyển khoản</a>
-                     </li>
-                  </ul>
-               </div>
+             
             </div>
          </div>
       </div>
@@ -76,14 +56,14 @@ export default {};
 }
 
 .first-footer {
-   background-color: #E38B29;
-   color: #fff;
+   background-color: #fff;
+   color: orange;
    padding: 20px;
 }
 
 #footer h5 {
    font-size: 18px;
-   color: #fff;
+   color: orange;
    margin: 0 0 15px 0;
    padding: 0 0 7px 0;
    font-weight: normal;
@@ -95,7 +75,7 @@ export default {};
 }
 
 #footer .contact ul li {
-   color: #fff;
+   color: orange;
    text-decoration: none;
    display: block;
    padding: 3px 0;
@@ -118,7 +98,7 @@ export default {};
 }
 
 #footer .column ul li a {
-   color: #fff;
+   color: orange;
    text-decoration: none;
    line-height: 18px;
    font-size: 15px;

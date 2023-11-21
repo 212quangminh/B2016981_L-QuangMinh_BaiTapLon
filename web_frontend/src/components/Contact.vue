@@ -21,12 +21,12 @@
                </p>
                <p>
                   <i class="fa-solid fa-envelope icon-email"></i>
-                  <a style="color: #000;text-decoration: none;" href="mailto:kiettruong@gmail.com">kiettruong@gmail.com</a>
+                  <a style="color: #000;text-decoration: none;" href="mailto:kiettruong@gmail.com">quangminh2021202@gmail.com</a>
 
                </p>
                <p>
                   <i class="fa-solid fa-phone icon-phone"></i>
-                  <a style="color: #000;text-decoration: none;" href="tel:+84 56668888">+84 56668888</a>
+                  <a style="color: #000;text-decoration: none;" href="tel:+84 56668888">+84763921246</a>
                </p>
             </div>
             <div class="col-sm-6">

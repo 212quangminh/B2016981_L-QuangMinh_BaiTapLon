@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
    <div class="wrapper">
       <div class="header">
          <div class="nav-menu">
@@ -72,4 +72,4 @@ export default {
    width: 100%;
    height: 150px;
 }
-</style>
+</style> -->

@@ -3,12 +3,17 @@
       <div class="slider-content">
          <Splide :options="options" aria-label="My Favorite Images">
             <SplideSlide>
-               <img src="http://cdn.shopify.com/s/files/1/0538/7249/2712/collections/Huffkins_Biscuits_1200x1200.jpg?v=1665651984" alt="Sample 2" />
+               <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/1/27/1141740/Kobe-Bryant.jpg" alt="Sample 2" />
             </SplideSlide>
             <SplideSlide>
-               <img src="https://cdn.shopify.com/s/files/1/0631/8804/1949/collections/collection-banner-2_d8208d36-220a-4459-91d6-174e9fb64f0e.jpg?v=1649063431&width=1500" alt="Sample 1" />
+               <img src="https://tophinhanhdep.com/wp-content/uploads/2021/10/4K-NBA-Wallpapers-1024x576.jpg" alt="Sample 1" />
             </SplideSlide>
-
+            <SplideSlide>
+               <img src=" https://s.yimg.com/ny/api/res/1.2/kV.EsRb1DTO3f6kbFLQHHQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://s.yimg.com/os/creatr-uploaded-images/2022-07/06c0c250-0154-11ed-bfee-ec86f69b309e" alt="">
+            </SplideSlide>
+            <SplideSlide>  
+               <img src="https://w0.peakpx.com/wallpaper/654/248/HD-wallpaper-basketball-ja-morant.jpg" alt="">
+            </SplideSlide>
          </Splide>
       </div>
    </div>
@@ -39,7 +44,7 @@ export default defineComponent({
 <style scoped>
 .splide__slide img {
    width: 100%;
-   height: 300px;
+   height: 500px;
    object-fit: cover; /* Bao phủ toàn bộ khung hình */
    display: block;
 }
